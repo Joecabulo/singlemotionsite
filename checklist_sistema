@@ -22,7 +22,7 @@ Checklist do sistema (SingleMotion website)
 - 2026-01-13: Adicionada seção Sobre/Filosofia e links de navegação (Início/Sobre/etc.) responsivos.
 - 2026-01-13: Adicionado build Vite com cópia da pasta logo/ e emissão de logo/dashboard.webp via Sharp.
 - 2026-01-13: Ajustado ESLint (React JSX transform) e TypeScript para validação (lint/typecheck/build ok).
-- 2026-01-13: CTA de WhatsApp configurável via DNS TXT _whatsapp.singlemotion.org (fallback wa.me genérico).
+- 2026-01-13: CTA de WhatsApp configurável via DNS TXT _whatsapp.singlemotion.org (fallback para wa.me/5531975184428).
 - 2026-01-13: Criada pasta public/logo para servir assets no Vite (dev/build) sem simulação.
 - 2026-01-13: Convertida a imagem (Sem títul3.png) para SVG (public/logo/smagenda-config.svg) e adicionada ao card do SM Agenda.
 - 2026-01-13: Movida a imagem SVG para o mockup do Hero (container do MacBook) e removida do card do produto.
