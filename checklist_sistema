@@ -30,3 +30,4 @@ Checklist do sistema (SingleMotion website)
 - 2026-01-13: Implementado menu mobile com botão hambúrguer e drawer com links de navegação.
 - 2026-01-13: Garantido que link do SM Agenda abre em nova aba (target=_blank + rel=noreferrer).
 - 2026-01-13: Adicionado glow suave e bordas rounded-xl na “tela” do mockup do Hero.
+- 2026-01-13: Criado repositório Git e enviado para https://github.com/Joecabulo/singlemotionsite.
