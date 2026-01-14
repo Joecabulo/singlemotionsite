@@ -1,0 +1,32 @@
+Checklist do sistema (SingleMotion website)
+
+- 2026-01-13: Criado site estático inicial (index.html, styles.css, main.js) com identidade SingleMotion, seções de serviços/produtos/processo/contato e checagem real de disponibilidade do SM Agenda via carregamento de recurso em produção.
+
+- 2026-01-13: Gerado logo/logo-sm.svg a partir de logo SM sem fundo.png e aplicado no header/footer.
+
+- 2026-01-13: Ajustada checagem de status do SM Agenda para usar DNS over HTTPS (Cloudflare/Google).
+
+- 2026-01-13: Removido menu mobile flutuante e mantido apenas menu fixo no header.
+
+- 2026-01-13: Substituído texto da marca no header por logo em SVG (logo-sm.svg) com tamanho contido.
+
+- 2026-01-13: Aumentada logo no header (SVG) com limites de largura/altura para não estourar o container.
+
+- 2026-01-13: Aumentado novamente o tamanho da logo no header e ajustado grid do header.
+
+- 2026-01-13: Substituída a logo no site pela versão nova (logo SM sem fundopequena.png), convertida para logo/logo-sm.svg.
+
+- 2026-01-13: Migrado o site para SPA em React + Vite + Tailwind (dark mode), com componentes e layout no src/.
+- 2026-01-13: Implementada checagem real do SM Agenda via DNS over HTTPS no React (Cloudflare/Google).
+- 2026-01-13: Implementado mockup tipo MacBook com imagem do dashboard e geração WebP no build.
+- 2026-01-13: Adicionada seção Sobre/Filosofia e links de navegação (Início/Sobre/etc.) responsivos.
+- 2026-01-13: Adicionado build Vite com cópia da pasta logo/ e emissão de logo/dashboard.webp via Sharp.
+- 2026-01-13: Ajustado ESLint (React JSX transform) e TypeScript para validação (lint/typecheck/build ok).
+- 2026-01-13: CTA de WhatsApp configurável via DNS TXT _whatsapp.singlemotion.org (fallback wa.me genérico).
+- 2026-01-13: Criada pasta public/logo para servir assets no Vite (dev/build) sem simulação.
+- 2026-01-13: Convertida a imagem (Sem títul3.png) para SVG (public/logo/smagenda-config.svg) e adicionada ao card do SM Agenda.
+- 2026-01-13: Movida a imagem SVG para o mockup do Hero (container do MacBook) e removida do card do produto.
+- 2026-01-13: Melhorada a qualidade do mockup usando WebP (public/logo/smagenda-config.webp) com fallback PNG no Hero.
+- 2026-01-13: Implementado menu mobile com botão hambúrguer e drawer com links de navegação.
+- 2026-01-13: Garantido que link do SM Agenda abre em nova aba (target=_blank + rel=noreferrer).
+- 2026-01-13: Adicionado glow suave e bordas rounded-xl na “tela” do mockup do Hero.
